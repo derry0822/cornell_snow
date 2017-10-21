@@ -1,6 +1,6 @@
 $(document).ready(function() {
 $.ajax({
-url : "http://api.wunderground.com/api/1ce585453ff3a005/geolookup/conditions/q/NY/Ithaca.json",
+url : "https://api.wunderground.com/api/1ce585453ff3a005/geolookup/conditions/q/NY/Ithaca.json",
 dataType : "jsonp",
 success : function(parsed_json) {
     var location = parsed_json['location']['city'];
