@@ -68,3 +68,39 @@ canvas {
   height: 30%;
   bottom: 0;
 }
+
+/*More*/
+#more {
+  position: fixed;
+  right: -1px;
+  width: 200px;
+  height: auto;
+  font-family: 'Caveat Brush', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+#more h3 {
+  color: black;
+  font-size: 35px;
+  z-index: 101;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#more h3:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#more p {
+  font-size: 20px;
+}
+
+#weather {
+  display: none;
+}
+
+#weather p {
+  margin-top: 0;
+}
